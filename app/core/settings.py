@@ -72,6 +72,8 @@ INSTALLED_APPS = [
     'drf_spectacular',
     'core.celery.CeleryConfig',
     'user',
+    'content',
+    'article',
 ]
 
 AUTH_USER_MODEL = "user.User"
@@ -343,8 +345,8 @@ SPECTACULAR_SETTINGS = {
         "displayRequestDuration": True
     },
     'UPLOADED_FILES_USE_URL': True,
-    'TITLE': 'Prowoks Application API',
-    'DESCRIPTION': 'Prowoks API Doc',
+    'TITLE': 'Prunedge Medium Application API',
+    'DESCRIPTION': 'Prunedge Medium',
     'VERSION': '1.0.0',
     'LICENCE': {'name': 'BSD License'},
     'CONTACT': {'name': 'Daniel Ale', 'email': 'daniel.ale@prunedge.com'},
