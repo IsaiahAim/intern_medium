@@ -1,4 +1,4 @@
-from content.models import HomePageSlider, AwardRecognition
+from .models import HomePageSlider, AwardRecognition
 from rest_framework.serializers import ModelSerializer, ValidationError
 
 

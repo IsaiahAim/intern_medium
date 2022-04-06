@@ -1,4 +1,4 @@
-from article.models import Article
+from .models import Article
 from rest_framework.serializers import ModelSerializer
 
 

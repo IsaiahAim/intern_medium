@@ -4,7 +4,8 @@ from . import views
 
 # Create a router and register our views with it.
 router = DefaultRouter()
-router.register(r'awards', views.AwardRecognitionList, basename="awards")
+router.register(r'awards', views.AwardRecognitionViewsets, basename="awards")
+router.register(r'homepage', views.HomePageSliderViewsets, basename="homepage")
 
 # The API URLs are now determined automatically by the router.
 urlpatterns = [
